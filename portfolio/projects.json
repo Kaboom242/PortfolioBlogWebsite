@@ -51,6 +51,7 @@
     },
     {
       "title": "Star Bridge 2023 - Present",
+      "hidden": true,
       "description": "Unreal Coop multiplayer Roguelike game",
       "images": [
         {
@@ -66,6 +67,7 @@
     },
     {
       "title": "Terra Unknown 2022 - Present",
+      "hidden": true,
       "description": "Coop RPG Adventure game",
       "images": [
         {

@@ -5,6 +5,7 @@ function loadProjects() {
         const contentDiv = document.getElementById('content');
         
         data.forEach(project => {
+          if(project.hidden && project.hidden == true) { return; }
           const projectDiv = document.createElement('div');
           projectDiv.classList.add('project');
           
