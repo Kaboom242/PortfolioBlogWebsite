@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Stardate";
+    src: url("../fonts/Stardate.ttf");
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Use a font with a retro feel */
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 96px;
+    font-weight: 300;
+    font-family: 'Stardate'; /* Use a Star Wars-style font */
+}
+
+.header p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.video-section {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 videos */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.screenshot-section {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.screenshot-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.screenshot-container img {
+    width: 30%;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.download-section {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #222;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+    transition:

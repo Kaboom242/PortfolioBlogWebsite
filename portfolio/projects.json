@@ -1,0 +1,121 @@
+[
+    {
+      "title": "Escape Academy - 2021",
+      "description": "Unity Coop Escaperoom Game [Steam Page](https://store.steampowered.com/app/1812090/Escape_Academy)",
+      "images": [
+        {
+          "src": "./images/EscapeAcademy_01.jpg",
+          "alt": "Project 2 Image 1"
+        },
+        {
+          "src": "./images/EscapeAcademy_02.jpg",
+          "alt": "Project 2 Image 1"
+        },
+        {
+          "src": "./images/EscapeAcademy_03.jpg",
+          "alt": "Project 2 Image 1"
+        },
+        {
+          "src": "./images/EscapeAcademy_04.jpg",
+          "alt": "Project 2 Image 2"
+        }
+      ],
+      "additionalDetails": "Created Shaders, Postprocessing Effects, Level Design, 3D modeling and Testing"
+    },
+    {
+      "title": "Warps - 2014 - Present",
+      "description": "Design work for a table top RPG",
+      "images": [
+        {
+          "src": "./images/Warps_01.png",
+          "alt": "Project 1 Image 1"
+        },
+        {
+          "src": "./images/Warps_02.png",
+          "alt": "Project 1 Image 1"
+        },
+        {
+          "src": "./images/Warps_03.png",
+          "alt": "Project 1 Image 1"
+        },
+        {
+          "src": "./images/Warps_04.png",
+          "alt": "Project 1 Image 1"
+        },
+        {
+          "src": "./images/Warps_05.png",
+          "alt": "Project 1 Image 2"
+        }
+      ],
+      "additionalDetails": "Rule creation and testing, Visual design, hundreds of classes, Items, monsters,  Ready for print."
+    },
+    {
+      "title": "Star Bridge 2023 - Present",
+      "description": "Unreal Coop multiplayer Roguelike game",
+      "images": [
+        {
+          "src": "project2-image1.jpg",
+          "alt": "Project 2 Image 1"
+        },
+        {
+          "src": "project2-image2.jpg",
+          "alt": "Project 2 Image 2"
+        }
+      ],
+      "additionalDetails": "100% solo project: C++ and blueprints, Game Design, 3D modeling, etc."
+    },
+    {
+      "title": "Terra Unknown 2022 - Present",
+      "description": "Coop RPG Adventure game",
+      "images": [
+        {
+          "src": "project2-image1.jpg",
+          "alt": "Project 2 Image 1"
+        },
+        {
+          "src": "project2-image2.jpg",
+          "alt": "Project 2 Image 2"
+        }
+      ],
+      "additionalDetails": "Unreal C++, Game Design"
+    },
+    {
+      "title": "Web Development 2017 - Present",
+      "description": "Interactive website hubs",
+      "images": [
+        {
+          "src": "./images/GameGenGames_1.png",
+          "alt": "Project 2 Image 1"
+        },
+        {
+          "src": "./images/GameGenGames_2.png",
+          "alt": "Project 2 Image 2"
+        },
+        {
+          "src": "./images/GameGenGames_3.png",
+          "alt": "Project 2 Image 2"
+        }
+      ],
+      "additionalDetails": "Made a Game Hosting Portal, Internal CRM tool, and LMS (Learning Management System)"
+    }, 
+    {
+      "title": "Smaller Prototypes",
+      "description": "Quick Small prototypes made fast.",
+      "images": [
+        {
+          "src": "./images/TimmysHammer.png",
+          "alt": "Project 2 Image 1"
+        },
+        {
+          "src": "./images/GenderReveal_01.png",
+          "alt": "Project 2 Image 2"
+        },
+        {
+          "src": "./images/NameReveal.png",
+          "alt": "Project 2 Image 2"
+        }
+      ],
+      "additionalDetails": "Baby Shower Game, Gender Reveal, Game Jams, DJ Voting Application"
+    }
+  ]
+  
