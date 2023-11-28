@@ -1,7 +1,13 @@
+function GetHostURL(){
+    location.hostname
+    output = "";
+    return output;
+}
+
 function loadHeader() {
   const headerContainer = document.getElementById('header');
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', '../header.html', true);
+  xhr.open('GET', '/header.html', true);
   xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
           headerContainer.innerHTML = xhr.responseText;
@@ -9,12 +15,11 @@ function loadHeader() {
   };
   xhr.send();
 }
-loadHeader();
 
 function loadFooter() {
   const headerContainer = document.getElementById('footer');
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', '../footer.html', true);
+  xhr.open('GET', '/footer.html', true);
   xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
           headerContainer.innerHTML = xhr.responseText;
@@ -22,7 +27,6 @@ function loadFooter() {
   };
   xhr.send();
 }
-loadFooter();
 
 function GetBlogPosts() {
   fetch('blogPosts.json')
