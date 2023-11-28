@@ -1,13 +1,18 @@
 function GetHostURL(){
-    location.hostname
-    output = "";
+    if(location.hostname == "localhost") 
+        output = "";
+    else {
+        output = "/PortfolioBlogWebsite/";
+    }
+    console.log(output);
     return output;
 }
 
 function loadHeader() {
   const headerContainer = document.getElementById('header');
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', '/header.html', true);
+;
+  xhr.open('GET',   GetHostURL() + '/header.html', true);
   xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
           headerContainer.innerHTML = xhr.responseText;
