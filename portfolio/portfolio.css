@@ -1,7 +1,7 @@
 /* Style for the image gallery container */
 .image-gallery {
     display: flex;
-    overflow-x: auto; /* Using 'auto' to show scrollbar only when needed */
+    overflow-x: scroll; /* Using 'auto' to show scrollbar only when needed */
     gap: 20px; /* Adjust the space between images */
     padding: 10px;
     border: 1px solid #ddd; /* Border around the image gallery */
