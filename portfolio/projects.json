@@ -24,7 +24,7 @@
     },
     {
       "title": "Warps - 2014 - Present",
-      "description": "Design work for a table top RPG",
+      "description": "Game Design work for creating a boardgame table top RPG",
       "images": [
         {
           "src": "./images/Warps_01.png",
@@ -52,7 +52,7 @@
     {
       "title": "Star Bridge 2023 - Present",
       "hidden": true,
-      "description": "Unreal Coop multiplayer Roguelike game",
+      "description": "Solo Project, Unreal Coop multiplayer Roguelike game.",
       "images": [
         {
           "src": "project2-image1.jpg",
@@ -68,7 +68,7 @@
     {
       "title": "Terra Unknown 2022 - Present",
       "hidden": true,
-      "description": "Coop RPG Adventure game",
+      "description": "Coop RPG Adventure game. Prealpha mostly a techincal demo. ",
       "images": [
         {
           "src": "project2-image1.jpg",
@@ -102,7 +102,7 @@
     }, 
     {
       "title": "Smaller Prototypes",
-      "description": "Quick Small prototypes made fast.",
+      "description": "Quick Small prototypes made fast. I spent 10 years making coutless small prototypes for VR, AR, Mobile, PC, Xbox, PC. Teaching Students how to make various projects in Construct 3, Unity, and Unreal. These are a small few I am allowed to show.",
       "images": [
         {
           "src": "./images/TimmysHammer.png",

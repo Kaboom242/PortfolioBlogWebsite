@@ -1,21 +1,47 @@
 
-function loadHeader() {
+function returnXHRURL()
+{
+    let hostURL = "";
+    if (location.hostname === "localhost" || location.hostname === "127.0.0.1")
+    {
+        hostURL = "./";
+    }
+    else {
+        hostURL = "./";
+    }
+    return hostURL;
+}
+function returnHostURL()
+{
+    let hostURL = "";
+    if (location.hostname === "localhost" || location.hostname === "127.0.0.1")
+    {
+        hostURL = window.location.protocol + "//" + window.location.host + "/PortfolioBlogWebsite";
+    }
+    else {
+        hostURL = "./PortfolioBlogWebsite";
+    }
+    return hostURL;
+}
+
+function loadHeader(pathOffset) {
   const headerContainer = document.getElementById('header');
   const xhr = new XMLHttpRequest();
 ;
-  xhr.open('GET',  '/PortfolioBlogWebsite/header.html', true);
+  xhr.open('GET',   pathOffset +'header.html', true); //returnXHRURL() +
   xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
           headerContainer.innerHTML = xhr.responseText;
+          document.getElementById("navbarBlog").href = returnHostURL() + "/index.html"; //http://localhost:1180/
       }
   };
   xhr.send();
 }
 
-function loadFooter() {
+function loadFooter(pathOffset) {
   const headerContainer = document.getElementById('footer');
   const xhr = new XMLHttpRequest();
-  xhr.open('GET', '/PortfolioBlogWebsite/footer.html', true);
+  xhr.open('GET', returnXHRURL() + pathOffset + '/footer.html', true);
   xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
           headerContainer.innerHTML = xhr.responseText;
@@ -25,7 +51,7 @@ function loadFooter() {
 }
 
 function GetBlogPosts() {
-  fetch('blogPosts.json')
+  fetch('./blogPosts.json')
   .then(response => response.json())
   .then(data => {
       // Sort the blog posts by date (assuming "date" is a valid property)
