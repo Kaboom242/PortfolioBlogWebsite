@@ -32,7 +32,7 @@ function loadHeader(pathOffset) {
   xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
           headerContainer.innerHTML = xhr.responseText;
-          document.getElementById("navbarBlog").href = returnHostURL() + "/index.html"; //http://localhost:1180/
+        //   document.getElementById("navbarBlog").href = returnHostURL() + "/index.html"; //http://localhost:1180/
       }
   };
   xhr.send();
